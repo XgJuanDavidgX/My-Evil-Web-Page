@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="MainCSS.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div id="navbarra" class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img id="logo" src="IMG/logo.png" alt="logo" width="100vw" height="40vh">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul id="listas" class="navbar-nav">
+              <li class="nav-item">
+                <a id="alimentos" class="nav-link active titulos" aria-current="page" href="#">Alimentos</a>
+              </li>
+              <li class="nav-item">
+                <a id="juegos" class="nav-link active titulos" href="#">Juegos</a>
+              </li>
+              <li class="nav-item">
+                <a id="paseos" class="nav-link active titulos" href="#">Paseos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a id="menumascotas" class="nav-link dropdown-toggle active titulos" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mascotas
+                </a>
+                <ul id="menu" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item enlinea" href="#">🐕 Perritos</a></li>
+                  <li><a class="dropdown-item enlinea" href="#">🐈 Gatitos</a></li>
+                  <li><a class="dropdown-item enlinea" href="#">🐇 Conejitos</a></li>
+                  <li><a class="dropdown-item enlinea" href="#">🐤 Pajaritos</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <h1 id="Titulo" style="font-family: Bahnschrift; text-align: center; margin-top: 5%;">🐶 My Web Page 😃</h1>
+
+    <div class="contenedor1">
+        <p id="texto" class="texto">Tener mascotas ofrece compañía, afecto y beneficios para la salud emocional. La responsabilidad de cuidar de ellas enseña valores como el compromiso, mientras que las actividades diarias promueven la actividad física. Para quienes viven solos, las mascotas son leales compañeros que reducen la sensación de soledad. En resumen, la presencia de mascotas enriquece la vida con amor, alegría y bienestar.</p>
+        <img id="cheems" src="IMG/cheems.PNG" class="icono">
+        </div>
+  
+    <div id="contenedorBoton">
+        <h3 id="NoTocar" class="notocar enlinea">No tocar ❗</h3><button class="boton" type="button" onclick="Dont(); LoSiento();">Dont</button><h3 id="NoTocar2" class="notocar enlinea">❗ No tocar</h3></h3>
+    </div>
+
+        <hr id="linea" class="lineas">
+  
+        <div class="contenedor2">
+          <div>
+            <h3 id="mascotas" class="titulogrande">Mascotas</h3>
+            <h3 id="perroamigo" class="titulonormal">El mejor amigo del hombre</h3>
+            <img id="evildog" src="IMG/perroamigo.jpg" class="imagennv">
+          </div>
+          <div class="parte_derecha">
+            <h1 id="titulovideo" class="titulo_derecho">Videos de Perritos</h1>
+            <iframe id="video" class="video" width="560" height="315" src="https://www.youtube.com/embed/vgXw0H-jhUg?si=g6Fac8UYdL6jfaa6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p id="perrostexto" class="descripcion">Los perritos son adorables por su tamaño pequeño, caras expresivas y comportamientos juguetones. Despiertan un afecto irresistible en las personas.</p>
+          </div>
+        </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+<script src="MainJS.js"></script>
+</html>
